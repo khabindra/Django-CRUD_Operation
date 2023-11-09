@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: #000; /* Black text color */
+    padding: 10px 0; /* Add some padding for better aesthetics */
+}
+
+.navbar a {
+    color: #000; /* Black text color for links */
+    transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #ff0000; /* Change link color on hover or when active */
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Content Styles */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Button Styles */
+.btn-outline-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.btn-outline-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Heading Styles */
+h4 {
+    font-size: 24px;
+    color: #007BFF;
+    text-align: center;
+    padding: 10px;
+    background-color: #F8F9FA;
+}

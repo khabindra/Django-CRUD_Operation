@@ -1,0 +1,32 @@
+/* Responsive video container */
+.embed-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+  }
+  
+  .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Video description styling */
+  .video-description {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-description h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .video-description p {
+    margin: 10px 0;
+  }
+  
